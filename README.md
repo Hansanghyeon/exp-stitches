@@ -7,3 +7,11 @@ tailwindcss에만 집착하는 나!
 그러게 말이다 그냥 Just do it!
 
 마스터하고 말해보자.
+
+## tailwind-stitches
+
+tailwind config를 stitches로 이동해서 사용하기
+
+### Feature
+
+- [x] 색상
