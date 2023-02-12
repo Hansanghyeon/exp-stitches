@@ -14,7 +14,7 @@ export default () => {
     build: {
       lib: {
         entry: path.resolve(__dirname, 'index.ts'),
-        name: '@imwebme/color',
+        name: '@hansanghyeon/color',
         formats: ['es', 'cjs', 'umd'],
         fileName: (format) => {
           let f;
