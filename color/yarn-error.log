@@ -1,0 +1,66 @@
+Arguments: 
+  /root/.nvm/versions/node/v18.14.0/bin/node /root/.nvm/versions/node/v18.14.0/bin/yarn
+
+PATH: 
+  /root/.nvm/versions/node/v18.14.0/bin:/root/.autojump/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ts-jest: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/root/.nvm/versions/node/v18.14.0/lib/node_modules/yarn/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:848:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:570:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+    "name": "@hansanghyeon/color",
+    "version": "0.0.0-alpha.1",
+    "type": "module",
+    "devDependencies": {
+      "@types/jest": "^29.4.0",
+      "jest": "^29.4.1",
+      "lodash": "^4.17.21",
+      "ts-jest": "^29.0.5",
+      "ts-node": "^10.9.1",
+      "typescript": "^4.9.5",
+      "vite": "^4.0.4",
+      "vite-plugin-dts": "^1.7.2",
+      "vite-tsconfig-paths": "^4.0.5"
+    },
+    "scripts": {
+      "test": "jest",
+      "build": "tsc && vite build"
+    },
+    "files": [
+      "dist"
+    ],
+    "main": "./dist/index.umd.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.es.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/index.mjs",
+        "require": "./dist/index.cjs"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

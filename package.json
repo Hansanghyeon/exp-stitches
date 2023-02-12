@@ -1,0 +1,15 @@
+{
+  "name": "exp-stitches",
+  "repository": "https://github.com/Hansanghyeon/exp-stitches.git",
+  "license": "UNLICENSED",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "color",
+      "tailwindcss",
+      "tailwindcss-react"
+    ]
+  },
+  "version": "1.0.0",
+  "main": "index.js"
+}

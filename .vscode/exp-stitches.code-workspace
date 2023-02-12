@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "@hansanghyeon/color",
+			"path": "../color"
+		},
+		{
+			"name": "@hansanghyeon/tailwindcss-stitches",
+			"path": "../tailwindcss"
+		},
+		{
+			"name": "tailwindcss-react",
+			"path": "../tailwindcss-react"
+		},
+	],
+  "settings": {
+    "jest.disabledWorkspaceFolders": [
+      "@hansanghyeon/tailwindcss-stitches",
+      "tailwindcss-react",
+    ],
+  }
+}
