@@ -6,7 +6,7 @@
 		},
 		{
 			"name": "@hansanghyeon/tailwindcss-stitches",
-			"path": "../tailwindcss"
+			"path": "../tailwindcss-stitches"
 		},
 		{
 			"name": "tailwindcss-react",
