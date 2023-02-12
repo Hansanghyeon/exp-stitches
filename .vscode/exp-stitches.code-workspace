@@ -8,15 +8,10 @@
 			"name": "@hansanghyeon/tailwindcss-stitches",
 			"path": "../tailwindcss-stitches"
 		},
-		{
-			"name": "tailwindcss-react",
-			"path": "../tailwindcss-react"
-		},
 	],
   "settings": {
     "jest.disabledWorkspaceFolders": [
       "@hansanghyeon/tailwindcss-stitches",
-      "tailwindcss-react",
     ],
   }
 }
